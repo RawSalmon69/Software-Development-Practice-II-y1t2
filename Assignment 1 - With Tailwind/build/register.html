@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="mx-auto min-h-screen bg-top bg-cover bg-[url('../images/chulabg.png')]">
+            
+        <nav class="flex items-center text-xl bg-gradient-to-l from-black to-red-900">
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block text-white m-3"><a href="index.html">Home</a></li>
+                <li class="list-none inline-block text-white m-3"><a href="register.html">Register</a></li>
+                <li class="list-none inline-block text-white m-3"><a href="#">Job Listing</a></li>
+                <li class="list-none inline-block text-white m-3"><a href="#">About</a></li>
+            </ul>
+            <div class="text-white text-sm top-right mr-3">phanthawas Jirakiattikun 6633165121</div>
+        </nav>
+        <div class="block rounded-lg p-6 text-surface shadow-secondary-1 text-white mt-20 mx-20">
+            <div class="mx-auto block max-w-6xl rounded-lg bg-black p-6 shadow-4 dark:bg-surface-dark">
+            <form>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="relative mb-3" data-twe-input-wrapper-init>
+                    <label for="company-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Company Name</label>
+                    <input type="text" id="company-name" class="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white" placeholder="Example Company" required />
+                </div>
+                
+                <div class="relative mb-3" data-twe-input-wrapper-init>
+                    <label for="booth-size" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Booth Size (Feet)</label>
+                    <select id="booth-size" class="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white">
+                        <option value="10x10">10x10</option>
+                        <option value="10x15">10x15</option>
+                    </select>
+                </div>
+                <div class="relative mb-3" data-twe-input-wrapper-init>
+                        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
+                        <input type="text" id="name" class="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white" placeholder="John Doe" required />
+                </div>
+                <div class="relative mb-3" data-twe-input-wrapper-init>
+                    <label for="phone-number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone Number</label>
+                    <input type="text" id="phone-number" class="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white" placeholder="012 345 6789" required />
+                </div>
+                <div class="relative mb-3" data-twe-input-wrapper-init>
+                    <label for="number-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Chairs needed</label>
+                    <input type="number" id="number-input" aria-describedby="helper-text-explanation" class="text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white" placeholder="6" required />
+                </div>
+                <div class="relative mb-3" data-twe-input-wrapper-init>
+                    <label for="reserve-table" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Optional</label>
+                    <input id="reserve-table" type="checkbox" value="" class="mt-2 w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded">
+                    <label for="reserve-table" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Reseve Table for Booth</label>
+                </div>
+            </div>
+            <button
+                type="submit"
+                class="bg-gray-500 inline-block w-sm rounded bg-primary px-6 mt-3 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-gradient-to-r from-black to-red-800 hover:outline focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2"
+                data-twe-ripple-init
+                data-twe-ripple-color="light">
+                Register
+            </button>
+            </form>
+            </div>
+
+</div>
+<footer class="bg-black shadow absolute inset-x-0 bottom-0 ">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">Phanthawas J. (6633165121)</a> All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+</body>
+</html>
