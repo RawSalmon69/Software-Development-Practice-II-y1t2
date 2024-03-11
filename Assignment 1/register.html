@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="card">
+    <div class="container" style="background-color: rgb(255, 219, 171);">
+    <h1>Registration Form</h1>
+    </div>
+    <div class="container">
+    <form style="margin-top: 12px;">
+        <label for="artist-name">Artist Name:</label>
+        <input type="text" id="artist-name" name="artist-name" required><br><br>
+        
+        <label for="booth-size">Booth Size:</label>
+        <select id="booth-size" name="booth-size" required>
+            <option value="10x10">10x10 feet</option>
+            <option value="10x15">10x15 feet</option>
+        </select><br><br>
+        
+        <label for="table-required">Table Required:</label>
+        <input type="checkbox" id="table-required" name="table-required" required><br><br>
+        
+        <label for="chair-amount">Chair Amount:</label>
+        <input type="number" id="chair-amount" name="chair-amount" min="0" required><br><br>
+        
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required><br><br>
+        
+        <label for="phone-number">Phone Number:</label>
+        <input type="tel" id="phone-number" name="phone-number" pattern="[0-9]{10}" required><br><br>
+        
+        <input type="submit" value="Submit" style="margin-bottom: 12px;">
+    </form>
+</div>
+</div>
+<div style="position: absolute; top: 1; margin-top: 12px;">
+    - Phanthawas Jirakiattikun 6633165121 -
+    </div>
+</body>
+</html>
