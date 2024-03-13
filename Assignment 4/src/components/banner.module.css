@@ -3,13 +3,14 @@
     padding: 5px;
     margin: 0;
     width: 100vw;
-    height: 80vh;
+    height: 60vh;
     position: relative;
 }
 
 .bannerText {
     position: relative;
-    top: 100px;
+    top: 30%;
+    left: -12%;
     z-index: 20;
     text-align: center;
 }

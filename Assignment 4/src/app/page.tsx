@@ -4,7 +4,7 @@ import Card from '@/components/Card'
 
 export default function Home() {
   return (
-    <main>
+    <main className='bg-black'>
         <Banner/> 
         <div style={{margin: "20px", display:"flex", flexDirection:"row", alignContent:"space-around", justifyContent:"space-around", flexWrap:"wrap"}}>
           <Card hospitalName='chula' imgSrc='/img/chula.jpg'/>
